@@ -1,0 +1,14 @@
+header {
+    background-color: var(--color-main);
+    padding: 1rem; /*10px*/
+}
+
+header a {
+    display: inline-flex;
+    background-color: #fff;
+    width: 11.9rem; /*119px*/
+    height: 8rem;
+}
+
+
+

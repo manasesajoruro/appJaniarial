@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "'Playfair Display'";
+    src: url('../assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+}
+
+/* ---- Variables ----*/
+:root {
+    --color-gris: #F6F6F6;
+    --color-main: #0544A4;
+
+    --color-text: #1B1B1B;
+}
+
+/* ---- Estilos iniciales ---- */
+html {
+	font-size: 62.5%; /*1rem = 10px*/
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit; /*hereda el box-sizing*/
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    background-color: #fff;
+    color: var(--color-text);
+}
+h1, h2, h3{
+	font-weight: 700;
+}
+
+h4, h5, h6{
+	font-weight: 500;
+}
+img{
+	display: block; /*para q abarque todo*/
+	width: 100%;
+}
+a {
+	text-decoration: none; /*quita el subraya al enlace*/
+	/* color: var(--color-900); */
+	font-weight: 500;
+}
+/* ---- UTILIDADES -----*/
+[class$="__container"] { /*aplica los styles a las clases q terminan en __container*/
+	width: 100%;
+	max-width: 120rem; /*ancho maximo*/
+	padding: 1rem;
+	margin: 0 auto; /*centra*/
+}
+
+[class$="__title"] {
+	text-align: center;
+	font-size: 3rem;
+	padding: 0 1rem;
+}
