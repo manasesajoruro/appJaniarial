@@ -1,14 +1,25 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
 .header__container {
     background-color: rgba(5, 68, 164, 0.9);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row-reverse;
     height: 6.4rem;
+    position: relative;
 }
 
 .header__logo-link {
-    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2rem;
 }
 
 .header__logo {
@@ -16,6 +27,7 @@
     width: 11.9rem; 
     height: 8rem;
     display: flex;
+    padding: 0.8rem;
     align-items: center;    
 }
 /* menu de navegacion */
@@ -76,7 +88,28 @@
     font-size: 3rem;
 }
 
-.bienvenida {
-    background-color: red;
+.bienvenida__fondo {
+    position: absolute;   
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    z-index: -1; /*posiciona la img en la parte inferior*/
+}
+
+.bienvenida__container {
+    /* background-color: red; */
+    position: relative;
+    height: 60rem;
+    overflow: hidden;
     display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: flex-start;
+}
+.bienvenida__contenido {
+    background-color: green;
+    max-width: 45rem;
+    border-radius: 50%;
+    /* align-content: start; */
 }
