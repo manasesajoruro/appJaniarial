@@ -87,7 +87,7 @@
     font-weight: normal;
     font-size: 3rem;
 }
-
+/* bienvenida */
 .bienvenida__fondo {
     position: absolute;   
     top: 0;
@@ -97,19 +97,63 @@
     z-index: -1; /*posiciona la img en la parte inferior*/
 }
 
-.bienvenida__container {
-    /* background-color: red; */
+.bienvenida {
     position: relative;
     height: 60rem;
     overflow: hidden;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
 }
+.bienvenida__container {
+    max-width: 100%;
+    padding: 0 2.4rem;
+    margin: 0 auto;
+}
+
 .bienvenida__contenido {
-    background-color: green;
-    max-width: 45rem;
-    border-radius: 50%;
-    /* align-content: start; */
+    margin: 7.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
+.bienvenida__contenido span {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 50%;
+    height: 28rem;
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bienvenida__text {
+    color: var(--color-main);
+    white-space: pre-line;
+    line-height: 1.25;
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+    font-family: var(--font-text);
+}
+
+.bienvenida__btn {
+    background-color: var(--color-main);
+    font-size: 1.5rem;
+    border-radius: 4.8rem;
+    margin-top: 2.4rem;
+    padding: 1rem 2.4rem;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bienvenida__btn:hover {
+    background-color: rgb(9, 90, 212);
+}
+
+/* mision */
