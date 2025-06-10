@@ -29,6 +29,7 @@ body {
     font-size: 2rem;
     background-color: #fff;
     color: var(--color-text);
+	line-height: 1.5;
 }
 h1, h2, h3{
 	font-weight: 700;
@@ -50,12 +51,16 @@ a {
 [class$="__container"] { /*aplica los styles a las clases q terminan en __container*/
 	width: 100%;
 	max-width: 120rem; /*ancho maximo*/
-	padding: 1rem;
+	padding: 0 2.4rem;
 	margin: 0 auto; /*centra*/
 }
 
 [class$="__title"] {
 	text-align: center;
-	font-size: 3rem;
-	padding: 0 1rem;
+	color: var(--color-main);    
+    line-height: 1.25;
+    font-size: 3.5rem;
+    font-weight: 400;    
+    font-family: var(--font-text);
+	margin: 0;
 }
