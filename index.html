@@ -33,7 +33,7 @@
                     </li>                   
                 </ul>                
             </nav>  
-            <button popovertarget="menu" class="nav__btn"><i class="bx bx-menu nav__menu"></i></button>          
+            <button popovertarget="menu" class="nav__menu"><i class="bx bx-menu nav__icono"></i></button>          
         </div>
     </header>
     <main>
@@ -62,11 +62,14 @@
                 <p class="mision__text">We will conduct a survey of the premises to determine the service requirements and scale of operations. This consultation will form the basis of a Janitorial Services Plan to meet your specific needs.</p>
             </div> 
         </section>
-        <section>            
-            <form action="">
+        <section class="formulario">            
+            <form action="" class="formulario__container">
                 <h3 class="formulario__title">Join Our Mailing List</h3>
-                <input type="email" name="" id="" placeholder="Email address">
-                <button>Sign up</button>
+                <div class="formulario__inputs">
+                    <input type="email" name="email" id="" class="formulario__input">
+                    <label for="email" class="formulario__label">Email address</label>                    
+                </div>  
+                <button class="formulario__btn">Sign up</button>              
             </form>
         </section>
         <section>
