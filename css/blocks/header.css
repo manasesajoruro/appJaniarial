@@ -222,3 +222,45 @@
 .formulario__btn:hover {
     background-color: rgb(9, 90, 212);
 }
+
+/*Contacto*/
+
+.contact {
+    /* background-color: red; */
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.contact__divider {
+    width: 5rem;
+    border: 0.1rem solid rgb(226, 226, 226);
+    margin-top: 2.4rem;
+    margin-bottom: 4rem;
+}
+
+.contact__social {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.contact__social-link {    
+    border-radius: 50%;  
+    cursor: pointer;  
+}
+
+.contact__icon {
+    font-size: 4rem;
+    margin: 0 0.8rem 0.8rem 0.8rem;
+}
+
+.contact__social-link--facebook {
+    background-color: transparent;
+    color: #1877f2;
+}
+
+.contact__social-link--instagram {
+    background-color: transparent;
+    color: #e1306c;
+}
+
