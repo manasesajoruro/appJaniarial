@@ -264,3 +264,28 @@
     color: #e1306c;
 }
 
+/* footer */
+
+.footer {
+    background-color: #000;
+    padding: 4rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(150, 150, 150);
+}
+
+.footer__text {
+    margin: 0;
+}
+
+.footer__text--spacing {
+    margin-top: 2.4rem;
+}
+
+.footer__link {
+    color: rgb(42, 113, 222);
+}
+
+.footer__link:hover {
+    color: rgb(183, 196, 254);
+}
